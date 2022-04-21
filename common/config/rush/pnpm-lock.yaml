@@ -2851,7 +2851,7 @@ packages:
     dev: false
 
   file:projects/my-app.tgz:
-    resolution: {integrity: sha512-kjdRJZdWGJAGXWKCkKdnNqbyO8jKXhdiYX9n3kfVTgBNcJVJGe6qMGz2/u0uMbm5PrskPDjJv8Kl88QNtnzXDA==, tarball: file:projects/my-app.tgz}
+    resolution: {integrity: sha512-scPr2g2r7wNvte0Bsj1gyW8eSmmjUtNK0oKmLF8iLOW291FlUQe01E1KeYZSwxxMLYYkQP01QpimP0yXPsAlOQ==, tarball: file:projects/my-app.tgz}
     name: '@rush-temp/my-app'
     version: 0.0.0
     dependencies:
@@ -2867,7 +2867,6 @@ packages:
       eslint: 8.13.0
       eslint-config-prettier: 8.5.0_eslint@8.13.0
       eslint-plugin-svelte3: 3.4.1_eslint@8.13.0+svelte@3.47.0
-      lodash-es: 4.17.21
       prettier: 2.6.2
       prettier-plugin-svelte: 2.7.0_prettier@2.6.2+svelte@3.47.0
       svelte: 3.47.0

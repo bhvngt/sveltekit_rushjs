@@ -17,15 +17,6 @@ const config = {
                     "@lib/my-lib": "@lib/my-lib/package"
                 }
             },
-            build: {
-                rollupOptions: {
-                    output: {
-                        manualChunks: {
-                            "lodash": ["lodash-es"]
-                        }
-                    }
-                }
-            },
         }
     },
 // Override http methods in the Todo forms
