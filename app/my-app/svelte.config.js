@@ -9,7 +9,7 @@ const config = {
     kit: {
         adapter: adapter(),
         vite: {
-            s1sr: {
+            ssr: {
                 external: ["@lib/my-lib"]
             },
             resolve: {
