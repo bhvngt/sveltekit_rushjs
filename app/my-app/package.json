@@ -16,7 +16,7 @@
   "devDependencies": {
     "@playwright/test": "^1.21.1",
     "@sveltejs/adapter-auto": "next",
-    "@sveltejs/kit": "1.0.0-next.304",
+    "@sveltejs/kit": "next",
     "@types/cookie": "^0.5.1",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",

@@ -8,8 +8,8 @@ const config = {
     preprocess: preprocess(),
     kit: {
         adapter: adapter(),
-        vite: () => ({
-            ssr: {
+        vite: {
+            s1sr: {
                 external: ["@lib/my-lib"]
             },
             resolve: {
@@ -20,15 +20,17 @@ const config = {
             build: {
                 rollupOptions: {
                     output: {
-                        manualChunks: {}
+                        manualChunks: {
+                            "lodash": ["lodash-es"]
+                        }
                     }
                 }
             },
-        }),
-        // Override http methods in the Todo forms
-        methodOverride: {
-            allowed: ['PATCH', 'DELETE']
         }
+    },
+// Override http methods in the Todo forms
+    methodOverride: {
+        allowed: ['PATCH', 'DELETE']
     }
 };
 

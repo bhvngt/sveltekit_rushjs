@@ -7,7 +7,7 @@ specifiers:
   '@rush-temp/my-app': file:./projects/my-app.tgz
   '@rush-temp/my-lib': file:./projects/my-lib.tgz
   '@sveltejs/adapter-auto': next
-  '@sveltejs/kit': 1.0.0-next.304
+  '@sveltejs/kit': next
   '@types/cookie': ^0.5.1
   '@typescript-eslint/eslint-plugin': ^5.20.0
   '@typescript-eslint/parser': ^5.20.0
@@ -32,7 +32,7 @@ dependencies:
   '@rush-temp/my-app': file:projects/my-app.tgz
   '@rush-temp/my-lib': file:projects/my-lib.tgz
   '@sveltejs/adapter-auto': 1.0.0-next.35
-  '@sveltejs/kit': 1.0.0-next.304_svelte@3.47.0
+  '@sveltejs/kit': 1.0.0-next.317_svelte@3.47.0
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.20.0_b9ac9b5656ce5dffade639fcf5e491bf
   '@typescript-eslint/parser': 5.20.0_eslint@8.13.0+typescript@4.6.3
@@ -730,8 +730,8 @@ packages:
       esbuild: 0.14.37
     dev: false
 
-  /@sveltejs/kit/1.0.0-next.304_svelte@3.47.0:
-    resolution: {integrity: sha512-3+bCoDsF2Omolx51lK6+4Zgr8NYge8USxKpZpAg8OfonEW8L4GToyV4g+udLMCI3CC4QEw3eS1RFUj9UxLf2NQ==}
+  /@sveltejs/kit/1.0.0-next.317_svelte@3.47.0:
+    resolution: {integrity: sha512-04WqvYXfz4THy3HghkXYWNrbG6bMLaQTaTfGNMoGpoSUaboJ1enikReeD+9bt4AzxqWkLav+C6Q3NgwJXwYAiw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1065,7 +1065,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001332
-      electron-to-chromium: 1.4.116
+      electron-to-chromium: 1.4.117
       escalade: 3.1.1
       node-releases: 2.0.3
       picocolors: 1.0.0
@@ -1247,8 +1247,8 @@ packages:
       esutils: 2.0.3
     dev: false
 
-  /electron-to-chromium/1.4.116:
-    resolution: {integrity: sha512-sy2ol5DTH0sy8xvAglyHFxsNFXFsOBfa6rGmrtjiSdQOp53ossspduOzU+5Lx23H7GxEjjvtSF36XqkajV6Z5A==}
+  /electron-to-chromium/1.4.117:
+    resolution: {integrity: sha512-ypZHxY+Sf/PXu7LVN+xoeanyisnJeSOy8Ki439L/oLueZb4c72FI45zXcK3gPpmTwyufh9m6NnbMLXnJh/0Fxg==}
     dev: false
 
   /end-of-stream/1.4.4:
@@ -2851,7 +2851,7 @@ packages:
     dev: false
 
   file:projects/my-app.tgz:
-    resolution: {integrity: sha512-lKpLeuZM/LmCJYDK9CGrlI1iw1x5b97ao4BimlYSHs1Y3Lz0QmYOLmc4fhNU3hUwFKaIkoIvX7zxynG/98Kwug==, tarball: file:projects/my-app.tgz}
+    resolution: {integrity: sha512-kjdRJZdWGJAGXWKCkKdnNqbyO8jKXhdiYX9n3kfVTgBNcJVJGe6qMGz2/u0uMbm5PrskPDjJv8Kl88QNtnzXDA==, tarball: file:projects/my-app.tgz}
     name: '@rush-temp/my-app'
     version: 0.0.0
     dependencies:
@@ -2859,7 +2859,7 @@ packages:
       '@lukeed/uuid': 2.0.0
       '@playwright/test': 1.21.1
       '@sveltejs/adapter-auto': 1.0.0-next.35
-      '@sveltejs/kit': 1.0.0-next.304_svelte@3.47.0
+      '@sveltejs/kit': 1.0.0-next.317_svelte@3.47.0
       '@types/cookie': 0.5.1
       '@typescript-eslint/eslint-plugin': 5.20.0_b9ac9b5656ce5dffade639fcf5e491bf
       '@typescript-eslint/parser': 5.20.0_eslint@8.13.0+typescript@4.6.3
@@ -2867,6 +2867,7 @@ packages:
       eslint: 8.13.0
       eslint-config-prettier: 8.5.0_eslint@8.13.0
       eslint-plugin-svelte3: 3.4.1_eslint@8.13.0+svelte@3.47.0
+      lodash-es: 4.17.21
       prettier: 2.6.2
       prettier-plugin-svelte: 2.7.0_prettier@2.6.2+svelte@3.47.0
       svelte: 3.47.0
@@ -2892,12 +2893,12 @@ packages:
     dev: false
 
   file:projects/my-lib.tgz:
-    resolution: {integrity: sha512-5Ok7dt1X+5JeaCbo3U1BE691rAunCDO4NuW7Ko9FlaK1vSTQavE9eUK0k2nx+rfYnHrDd9pRMORrryPf6HDmig==, tarball: file:projects/my-lib.tgz}
+    resolution: {integrity: sha512-1MeFIfL3IeBOS3szcU0uBNOflFC59fxH89/aHWI1DzpUX1dssN4ehyrK5WJThuEmnr5sfVuFZu/iRZpYuZBDtA==, tarball: file:projects/my-lib.tgz}
     name: '@rush-temp/my-lib'
     version: 0.0.0
     dependencies:
       '@sveltejs/adapter-auto': 1.0.0-next.35
-      '@sveltejs/kit': 1.0.0-next.304_svelte@3.47.0
+      '@sveltejs/kit': 1.0.0-next.317_svelte@3.47.0
       '@typescript-eslint/eslint-plugin': 5.20.0_b9ac9b5656ce5dffade639fcf5e491bf
       '@typescript-eslint/parser': 5.20.0_eslint@8.13.0+typescript@4.6.3
       eslint: 8.13.0
