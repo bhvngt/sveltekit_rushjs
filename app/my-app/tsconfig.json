@@ -1,0 +1,11 @@
+{
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		"paths": {
+			"@lib/my-lib": ["@lib/my-lib/package"],
+			"@lib/my-lib/*": ["@lib/my-lib/package/*"],
+			"$lib":["src/lib"],
+			"$lib/*":["src/lib/*"]
+		}
+	}
+}
